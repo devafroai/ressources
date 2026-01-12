@@ -47,3 +47,8 @@ Les contributions sont les bienvenues ! Voir [CONTRIBUTING.md](docs/CONTRIBUTING
 - Email : contact@devafroai.com
 - Twitter : [@DevAfroAI](https://twitter.com/DevAfroAI)
 - LinkedIn : [DevAfroAI](https://linkedin.com/company/devafroai)
+
+- ![GitHub](https://img.shields.io/badge/DevAfroAI-Ressources-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Web-orange)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
