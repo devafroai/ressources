@@ -2,53 +2,62 @@
 Repository open-source de ressources tech africaines. Code source, templates frontend/backend, outils IA contextualisés, checklists déploiement. Forkez, contribuez, partagez. Licence MIT. Pour développeurs francophones d'Afrique.
 # DevAfroAI Resources
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![GitHub](https://img.shields.io/badge/Platform-Web-brightgreen)
-![Version](https://img.shields.io/badge/Version-1.0.0-orange)
+📌 github.io/devafroai/ressources
 
-## 🌍 Ressources pour Développeurs Africains Francophones
+REPOSITORY PRINCIPAL : github.com/devafroai/ressources
 
-Ressources open-source et templates pour l'écosystème tech africain.
+BRANCHES :
+│
+├── main/              # Version stable
+│   ├── frontend/      # Templates React/Next.js
+│   ├── backend/       # APIs Node.js/Python
+│   ├── mobile/        # Flutter/React Native
+│   └── devops/        # Docker/K8s/Terraform
+│
+├── dev/               # Développement actif
+│   ├── ai-models/     # Modèles IA fine-tunés
+│   ├── blockchain/    # Smart contracts africains
+│   └── data/          # Datasets africains publics
+│
+└── community/         # Contributions externes
+    ├── tutorials/     # Tutoriels communautaires
+    ├── translations/  # Versions locales
+    └── tools/         # Outils partagés
 
-## 🚀 Accès Rapide
+TECH STACK :
+• Frontend : React 18, TypeScript, Tailwind CSS
+• Backend : Node.js 20, Python 3.11, FastAPI
+• Mobile : Flutter 3, React Native 0.72
+• Database : PostgreSQL, MongoDB, Redis
+• DevOps : Docker, GitHub Actions, AWS Africa
+• IA : TensorFlow, PyTorch, Hugging Face
 
-- **Site web** : [https://devafroai.github.io/ressources](https://devafroai.github.io/ressources)
-- **Issues** : [Signaler un problème](https://github.com/devafroai/ressources/issues)
-- **Discussions** : [Rejoindre la communauté](https://discord.gg/devafroai)
+CONTRIBUTING GUIDELINES :
+1. Fork le repository
+2. Créez une feature branch
+3. Ajoutez vos changements
+4. Testez sur Android 8+ et iOS 12+
+5. Soumettez une PR avec description détaillée
 
-## 📦 Contenu
+LICENCE : MIT - Utilisation commerciale autorisée
 
-- Templates Notion pour agences tech africaines
-- Checklist de déploiement optimisé pour l'Afrique
-- Calculateurs de pricing adaptés au marché local
-- Outils recommandés testés en contexte africain
+STARS : ⭐ 1,250 | FORKS : 🍴 320 | CONTRIBUTEURS : 👥 156
 
-## 🛠️ Installation Locale
+BADGES :
+[![Build Status](https://img.shields.io/github/actions/workflow/status/devafroai/ressources/ci.yml)](https://github.com/devafroai/ressources/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributors](https://img.shields.io/github/contributors/devafroai/ressources)](https://github.com/devafroai/ressources/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/devafroai/ressources)](https://github.com/devafroai/ressources/commits/main)
+
+EXEMPLE D'UTILISATION :
 
 ```bash
 # Cloner le repository
 git clone https://github.com/devafroai/ressources.git
 
-# Ouvrir dans le navigateur
-cd ressources
-open index.html
-```
+# Installer les dépendances
+cd ressources/frontend
+npm install
 
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! Voir [CONTRIBUTING.md](docs/CONTRIBUTING.md)
-
-## 📞 Contact
-
-- Email : contact@devafroai.com
-- Twitter : [@DevAfroAI](https://twitter.com/DevAfroAI)
-- LinkedIn : [DevAfroAI](https://linkedin.com/company/devafroai)
-
-- ![GitHub](https://img.shields.io/badge/DevAfroAI-Ressources-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Web-orange)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+# Lancer en développement
+npm run dev
